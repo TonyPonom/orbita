@@ -1,0 +1,31 @@
+﻿Построение начато 01.04.2019 13:46:57.
+     1>Проект "C:\Users\Anton\documents\visual studio 2010\Projects\orbita\orbita\orbita.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\orbita.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Form1.cpp /clr:nostdlib 
+         Form1.cpp
+     1>c:\users\anton\documents\visual studio 2010\projects\orbita\orbita\Form1.h(855): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>c:\users\anton\documents\visual studio 2010\projects\orbita\orbita\Form1.h(867): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\users\anton\documents\visual studio 2010\projects\orbita\orbita\Form1.h(868): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+         Для всех выходных данных обновления не требуется.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resx,Debug\orbita.Form1.resources
+         Обрабатывается файл ресурсов "Form1.resx", результирующий объект: "Debug\orbita.Form1.resources".
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anton\documents\visual studio 2010\Projects\orbita\Debug\orbita.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\orbita.Form1.resources /MANIFEST /ManifestFile:"Debug\orbita.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Anton\documents\visual studio 2010\Projects\orbita\Debug\orbita.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Form1.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         orbita.vcxproj -> C:\Users\Anton\documents\visual studio 2010\Projects\orbita\Debug\orbita.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Anton\documents\visual studio 2010\Projects\orbita\Debug\orbita.exe;#1" /manifest Debug\orbita.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\orbita.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\orbita.lastbuildstate".
+     1>Построение проекта "C:\Users\Anton\documents\visual studio 2010\Projects\orbita\orbita\orbita.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:05.64
